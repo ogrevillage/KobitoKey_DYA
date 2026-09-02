@@ -86,24 +86,47 @@
     device = <&tb_left>;
 
     input-processors =
-            <&zip_xy_to_scroll_mapper>,
-            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
-            <&scroll_runtime_input_processor_l>;
+        <&scroll_runtime_input_processor_l>,
+        <&zip_x_scaler 0 1>,
+        <&zip_y_scaler 1 15>,
+        <&zip_xy_to_scroll_mapper>,
+        <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+        <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>;
+};
+
+/ {
+    /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
+        compatible = "zmk,input-processor-temp-layer";
+        #input-processor-cells = <2>;
+        require-prior-idle-ms = <350>;
+    };
 };
 
 &tb_right_listener {
     status = "okay";
 
     input-processors =
-        <&mouse_runtime_input_processor &scroll_runtime_input_processor_r>; /* オートマウスレイヤーの指定とトラボ操作及びマウスボタン押下後に滞留する時間 */
+        <&zip_temp_layer 3 5000>,
+        <&mouse_runtime_input_processor &scroll_runtime_input_processor_r>;
+};
+&zip_temp_layer {
+    excluded-positions = <
+        6
+        7
+        8
+        30
+        32
+        33
+        39
+    >;
 };
 
 &scroll_runtime_input_processor_l {
-        processor-label = "ScrL";
-        x-codes = <INPUT_REL_X>;
-        y-codes = <INPUT_REL_Y>;
-        xy-to-scroll-enabled;
+    processor-label = "ScrL";
+    x-codes = <INPUT_REL_X>;
+    y-codes = <INPUT_REL_Y>;
+    scale-multiplier = <1>;
+    scale-divisor = <1>;
 };
 
 &scroll_runtime_input_processor_r {
