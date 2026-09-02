@@ -42,7 +42,7 @@ manifest:
 
 　　- name: zmk-module-runtime-input-processor
 　　  remote: cormoran
-　　  revision: 8103d06
+　　  revision: zmk-v0.3.0.0
 
     - name: zmk-module-battery-history
       remote: cormoran
