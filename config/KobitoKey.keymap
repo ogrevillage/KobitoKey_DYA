@@ -69,10 +69,10 @@
         NUM {
             label = "NUMBER";
             bindings = <
-&kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                         &kp KP_MINUS         &kp N7          &kp UP_ARROW      &kp N9            &kp LEFT_BRACKET
-&kp INT3          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(MINUS)                  &kp KP_PLUS          &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp RIGHT_BRACKET
-&kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                     &kp LS(KP_MULTIPLY)  &kp KP_SLASH    &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp NUHS
-&trans            &trans                      &trans        &trans         &trans  &trans  &trans               &trans                            &trans            &trans
+&kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                         &kp KP_MINUS     &kp N7          &kp UP_ARROW      &kp N9            &kp LEFT_BRACKET
+&kp INT3          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(MINUS)                  &kp KP_PLUS      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp RIGHT_BRACKET
+&kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                     &kp KP_MULTIPLY  &kp KP_SLASH    &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp NUHS
+&trans            &trans                      &trans        &trans         &trans  &trans  &trans           &trans                            &trans            &trans
             >;
         };
 
