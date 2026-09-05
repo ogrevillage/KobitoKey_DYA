@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - SEMI
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
@@ -34,49 +34,49 @@ layers:
   - {t: ESCAPE, h: LCTRL}
   - LWIN
   - LALT
-  - {t: SPACE, h: NUMBER}
+  - {t: DEL, h: NUMBER}
   - {t: SPACE, h: FUNCTION}
-  - {t: BACKSPACE, h: NUMBER}
-  - {t: ENTER, h: FUNCTION}
-  - RCTRL
-  - RSHFT
+  - {t: ENTER, h: NUMBER}
+  - {t: BACKSPACE, h: FUNCTION}
+  - RIGHT SHIFT
+  - UNDER
   - {t: SLASH, h: LALT}
   NUMBER:
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - AT SIGN
   - '7'
   - '8'
   - '9'
-  - '0'
-  - '&tog_ls'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MINUS
-  - EQUAL
-  - LBRC
-  - RBRC
+  - '7'
+  - UP ARROW
+  - '9'
+  - AT SIGN
   - BACKSLASH
-  - BACKSPACE
-  - DEL
+  - '4'
+  - '5'
+  - '6'
+  - EQUAL
+  - Sft+MINUS
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ASTRK
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - PERIOD
+  - Sft+ASTERISK
   - SLASH
-  - SEMI
-  - SQT
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
+  - {t: ▽, type: trans}
   - {type: held}
-  - ENTER
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
