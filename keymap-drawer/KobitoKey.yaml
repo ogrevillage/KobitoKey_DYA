@@ -34,10 +34,10 @@ layers:
   - {t: ESCAPE, h: LCTRL}
   - LWIN
   - LALT
-  - {t: DEL, h: NUMBER}
+  - {t: DEL, h: FUNCTION}
   - {t: SPACE, h: FUNCTION}
   - {t: ENTER, h: NUMBER}
-  - {t: BACKSPACE, h: FUNCTION}
+  - {t: BACKSPACE, h: NUMBER}
   - RIGHT SHIFT
   - UNDER
   - {t: SLASH, h: LALT}
@@ -75,9 +75,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -116,8 +116,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -179,7 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR ALL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
