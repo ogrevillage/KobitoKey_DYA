@@ -214,3 +214,5 @@ combos:
   k: ESC
 - p: [10, 11]
   k: TAB
+- p: [20, 21]
+  k: LEFT SHIFT

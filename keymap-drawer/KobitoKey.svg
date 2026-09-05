@@ -324,6 +324,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="42" y="85" width="28" height="26" class="combo"/>
 <text x="56" y="98" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
+<text x="56" y="154" class="combo tap">
+<tspan x="56" dy="-0.6em">LEFT</tspan><tspan x="56" dy="1.2em">SHIFT</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 308)" class="layer-NUMBER">
@@ -528,6 +534,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="42" y="85" width="28" height="26" class="combo"/>
 <text x="56" y="98" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
+<text x="56" y="154" class="combo tap">
+<tspan x="56" dy="-0.6em">LEFT</tspan><tspan x="56" dy="1.2em">SHIFT</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 616)" class="layer-FUNCTION">
@@ -720,6 +732,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="42" y="85" width="28" height="26" class="combo"/>
 <text x="56" y="98" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
+<text x="56" y="154" class="combo tap">
+<tspan x="56" dy="-0.6em">LEFT</tspan><tspan x="56" dy="1.2em">SHIFT</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 924)" class="layer-MOUSE">
@@ -911,6 +929,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="42" y="85" width="28" height="26" class="combo"/>
 <text x="56" y="98" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
+<text x="56" y="154" class="combo tap">
+<tspan x="56" dy="-0.6em">LEFT</tspan><tspan x="56" dy="1.2em">SHIFT</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1232)" class="layer-BT">
@@ -1100,6 +1124,12 @@ path.combo { stroke: #7f7f7f; }
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="42" y="85" width="28" height="26" class="combo"/>
 <text x="56" y="98" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
+<text x="56" y="154" class="combo tap">
+<tspan x="56" dy="-0.6em">LEFT</tspan><tspan x="56" dy="1.2em">SHIFT</tspan>
+</text>
 </g>
 </g>
 </g>
