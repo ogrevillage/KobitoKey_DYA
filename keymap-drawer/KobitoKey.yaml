@@ -61,17 +61,17 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - {t: ▽, type: trans}
+  - RIGHT BRACKET
   - '0'
   - '1'
   - '2'
   - '3'
   - PERIOD
-  - Sft+KP MULTIPLY
+  - KP MULTIPLY
   - KP SLASH
   - Sft+8
   - Sft+9
-  - {t: ▽, type: trans}
+  - NUHS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
