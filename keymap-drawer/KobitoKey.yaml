@@ -83,30 +83,30 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUNCTION:
-  - PG UP
-  - UP
-  - PAGE DOWN
-  - HOME
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Z
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - LEFT
-  - DOWN
-  - RIGHT
-  - END
+  - {t: ▽, type: trans}
+  - Gui+Sft+LEFT ARROW
+  - Gui+UP ARROW
+  - Sft+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - F6
   - F7
   - F8
   - F9
   - F10
-  - BACKSPACE
-  - DEL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - F11
   - F12
@@ -118,7 +118,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - DEL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
