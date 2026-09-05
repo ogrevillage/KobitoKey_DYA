@@ -35,8 +35,8 @@ layers:
   - LWIN
   - LALT
   - {t: DEL, h: FUNCTION}
-  - {t: SPACE, h: FUNCTION}
-  - {t: ENTER, h: NUMBER}
+  - SPACE
+  - ENTER
   - {t: BACKSPACE, h: NUMBER}
   - RIGHT SHIFT
   - UNDER
@@ -77,8 +77,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
