@@ -158,11 +158,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BASE
+  - L0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BASE
+  - L0
   - {t: ▽, type: trans}
   BT:
   - {t: BT, h: '0'}
