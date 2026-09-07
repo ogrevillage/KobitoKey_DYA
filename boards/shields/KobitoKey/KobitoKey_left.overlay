@@ -110,18 +110,18 @@
         <&mouse_runtime_input_processor &scroll_runtime_input_processor_r>;
 };
 &zip_temp_layer {
-　excluded-positions = <
-　    6
-　    7
-　    8
-　    16
-  　  17
-    　18
-  　  30
-    　32
-   　 33
-   　 39
-　>;
+    excluded-positions = <
+        6
+        7
+        8
+        16
+        17
+        18
+        30
+        32
+        33
+        39
+    >;
 };
 
 &scroll_runtime_input_processor_l {
