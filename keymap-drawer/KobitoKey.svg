@@ -135,8 +135,8 @@ text.trans { fill: #7e8184; }
 path.combo { stroke: #7f7f7f; }
 
 }</style>
-<g transform="translate(30, 0)" class="layer-default">
-<text x="0" y="28" class="label" id="default">default:</text>
+<g transform="translate(30, 0)" class="layer-L0 BASE">
+<text x="0" y="28" class="label" id="L0-BASE">L0 BASE:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -177,8 +177,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(700, 49)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">P</text>
-<a href="#BT">
-<text x="0" y="24" class="key hold layer-activator">BT</text>
+<a href="#L4-BT">
+<text x="0" y="24" class="key hold layer-activator">L4 BT</text>
 </a></g>
 <g transform="translate(28, 105)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -276,8 +276,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(238, 217)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">DEL</text>
-<a href="#FUNCTION">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 88%">FUNCTION</tspan></text>
+<a href="#L2-FUNCTION">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">L2 FUNCTION</tspan></text>
 </a></g>
 <g transform="translate(294, 224)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -290,8 +290,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(490, 217)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
-<a href="#NUMBER">
-<text x="0" y="24" class="key hold layer-activator">NUMBER</text>
+<a href="#L1-NUMBER">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 78%">L1 NUMBER</tspan></text>
 </a></g>
 <g transform="translate(546, 210)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -328,8 +328,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 308)" class="layer-NUMBER">
-<text x="0" y="28" class="label" id="NUMBER">NUMBER:</text>
+<g transform="translate(30, 308)" class="layer-L1 NUMBER">
+<text x="0" y="28" class="label" id="L1-NUMBER">L1 NUMBER:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -492,8 +492,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 616)" class="layer-FUNCTION">
-<text x="0" y="28" class="label" id="FUNCTION">FUNCTION:</text>
+<g transform="translate(30, 616)" class="layer-L2 FUNCTION">
+<text x="0" y="28" class="label" id="L2-FUNCTION">L2 FUNCTION:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -660,8 +660,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 924)" class="layer-MOUSE">
-<text x="0" y="28" class="label" id="MOUSE">MOUSE:</text>
+<g transform="translate(30, 924)" class="layer-L3 MOUSE">
+<text x="0" y="28" class="label" id="L3-MOUSE">L3 MOUSE:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -825,38 +825,33 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 1232)" class="layer-BT">
-<text x="0" y="28" class="label" id="BT">BT:</text>
+<g transform="translate(30, 1232)" class="layer-L4 BT">
+<text x="0" y="28" class="label" id="L4-BT">L4 BT:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#BT">
-<text x="0" y="0" class="key tap layer-activator">BT</text>
-</a><text x="0" y="24" class="key hold">0</text>
+<text x="0" y="0" class="key tap">BT</text>
+<text x="0" y="24" class="key hold">0</text>
 </g>
 <g transform="translate(84, 35)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#BT">
-<text x="0" y="0" class="key tap layer-activator">BT</text>
-</a><text x="0" y="24" class="key hold">1</text>
+<text x="0" y="0" class="key tap">BT</text>
+<text x="0" y="24" class="key hold">1</text>
 </g>
 <g transform="translate(140, 28)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#BT">
-<text x="0" y="0" class="key tap layer-activator">BT</text>
-</a><text x="0" y="24" class="key hold">2</text>
+<text x="0" y="0" class="key tap">BT</text>
+<text x="0" y="24" class="key hold">2</text>
 </g>
 <g transform="translate(196, 35)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#BT">
-<text x="0" y="0" class="key tap layer-activator">BT</text>
-</a><text x="0" y="24" class="key hold">3</text>
+<text x="0" y="0" class="key tap">BT</text>
+<text x="0" y="24" class="key hold">3</text>
 </g>
 <g transform="translate(252, 42)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#BT">
-<text x="0" y="0" class="key tap layer-activator">BT</text>
-</a><text x="0" y="24" class="key hold">4</text>
+<text x="0" y="0" class="key tap">BT</text>
+<text x="0" y="24" class="key hold">4</text>
 </g>
 <g transform="translate(476, 42)" class="key trans keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

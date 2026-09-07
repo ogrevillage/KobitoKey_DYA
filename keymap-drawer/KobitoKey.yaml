@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: KobitoKey}
 layers:
-  default:
+  L0 BASE:
   - Q
   - W
   - E
@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: BT}
+  - {t: P, h: L4 BT}
   - A
   - S
   - D
@@ -34,14 +34,14 @@ layers:
   - {t: ESCAPE, h: Ctrl}
   - LWIN
   - Alt
-  - {t: DEL, h: FUNCTION}
+  - {t: DEL, h: L2 FUNCTION}
   - SPACE
   - ENTER
-  - {t: BACKSPACE, h: NUMBER}
+  - {t: BACKSPACE, h: L1 NUMBER}
   - Shift
   - \
   - {t: /, h: Alt}
-  NUMBER:
+  L1 NUMBER:
   - '@'
   - '7'
   - '8'
@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  FUNCTION:
+  L2 FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Win+Z
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  MOUSE:
+  L3 MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - L0
   - {t: ▽, type: trans}
-  BT:
+  L4 BT:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -208,16 +208,16 @@ layers:
 combos:
 - p: [12, 13]
   k: 英数
-  l: [default]
+  l: [L0 BASE]
 - p: [16, 17]
   k: かな
-  l: [default]
+  l: [L0 BASE]
 - p: [0, 1]
   k: ESC
-  l: [default]
+  l: [L0 BASE]
 - p: [10, 11]
   k: TAB
-  l: [default]
+  l: [L0 BASE]
 - p: [20, 21]
   k: Shift
-  l: [default]
+  l: [L0 BASE]
