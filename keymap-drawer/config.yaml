@@ -14,15 +14,51 @@ parse_config:
     '&kp LS(NUMBER_9)': ")"
     '&kp LS(N9)': ")"
 
-    # JIS additional symbols
     '&kp LS(INT1)': "_"
     '&kp LS(INT3)': "|"
+
+    # Mouse buttons
+    '&mkp MB1': "LClick"
+    '&mkp MB2': "RClick"
+    '&mkp MB3': "MClick"
+
+    # Return to base layer
+    '&to 0': "BASE"
 
   zmk_keycode_map:
     # Existing
     EXCLAMATION: "!"
     EXCL: "!"
     C_PLAY_PAUSE: "▶|⏸"
+
+    # Japanese / English input
+    LANG1: "かな"
+    LANG2: "英数"
+
+    # Modifier keys
+    LEFT_SHIFT: "Shift"
+    LSHIFT: "Shift"
+    LSHFT: "Shift"
+    RIGHT_SHIFT: "Shift"
+    RSHIFT: "Shift"
+    RSHFT: "Shift"
+
+    LEFT_CONTROL: "Ctrl"
+    LEFT_CTRL: "Ctrl"
+    LCTRL: "Ctrl"
+    RIGHT_CONTROL: "Ctrl"
+    RIGHT_CTRL: "Ctrl"
+    RCTRL: "Ctrl"
+
+    LEFT_ALT: "Alt"
+    LALT: "Alt"
+    RIGHT_ALT: "Alt"
+    RALT: "Alt"
+
+    LEFT_GUI: "Win"
+    LGUI: "Win"
+    RIGHT_GUI: "Win"
+    RGUI: "Win"
 
     # JIS symbols
     SEMI: ";"
@@ -74,6 +110,20 @@ parse_config:
 
     RIGHT_ARROW: "→"
     RIGHTARROW: "→"
+
+  # Modifier combinations
+  # Gui+Sft+← → Win+Shift+← のように表示
+  modifier_fn_map:
+    left_ctrl: "Ctrl"
+    right_ctrl: "Ctrl"
+    left_shift: "Shift"
+    right_shift: "Shift"
+    left_alt: "Alt"
+    right_alt: "Alt"
+    left_gui: "Win"
+    right_gui: "Win"
+    keycode_combiner: "{mods}+{key}"
+    mod_combiner: "{mod_1}+{mod_2}"
 
 draw_config:
   dark_mode: auto
