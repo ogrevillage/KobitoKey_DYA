@@ -66,6 +66,24 @@ parse_config:
     LGUI: "Win"
     RIGHT_GUI: "Win"
     RGUI: "Win"
+    LWIN: "Win"
+
+    # Common keys
+    DELETE: "Del"
+    DEL: "Del"
+
+    ENTER: "Enter"
+    RETURN: "Enter"
+    RET: "Enter"
+
+    TAB: "Tab"
+    SPACE: "Space"
+
+    ESCAPE: "Esc"
+    ESC: "Esc"
+
+    BACKSPACE: "BS"
+    BSPC: "BS"
 
     # JIS symbols
     SEMI: ";"
