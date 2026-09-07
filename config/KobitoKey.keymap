@@ -68,6 +68,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            label = "L0 BASE";
             bindings = <
 &kp Q             &kp W     &kp E  &kp R     &kp T                            &kp Y            &kp U            &kp I      &kp O     &lt 4 P
 &kp A             &kp S     &kp D  &kp F     &kp G                            &kp H            &kp J            &kp K      &kp L     &kp SEMI
@@ -77,7 +78,7 @@
         };
 
         NUM {
-            label = "NUMBER";
+            label = "L1 NUMBER";
             bindings = <
 &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                         &kp KP_MINUS     &trans          &kp UP_ARROW      &trans            &kp LEFT_BRACKET
 &kp INT3          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(MINUS)                  &kp KP_PLUS      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp RIGHT_BRACKET
@@ -87,7 +88,7 @@
         };
 
         FUNC {
-            label = "FUNCTION";
+            label = "L2 FUNCTION";
             bindings = <
 &trans  &trans                  &kp LG(Z)           &trans                   &trans                  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
 &trans  &kp LG(LS(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &trans                  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
@@ -97,7 +98,7 @@
         };
 
         MOUSE {
-            label = "MOUSE";
+            label = "L3 MOUSE";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                 &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans                 &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
@@ -107,7 +108,7 @@
         };
 
         BT {
-            label = "BT";
+            label = "L4 BT";
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans  &trans  &trans  &trans  &trans
 &trans        &trans        &bt BT_PRV    &bt BT_NXT    &trans                        &trans  &trans  &trans  &trans  &trans
