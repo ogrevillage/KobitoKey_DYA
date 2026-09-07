@@ -48,9 +48,9 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - KP MINUS
-  - '7'
+  - {t: ▽, type: trans}
   - UP ARROW
-  - '9'
+  - {t: ▽, type: trans}
   - LEFT BRACKET
   - INT3
   - '4'
@@ -208,11 +208,16 @@ layers:
 combos:
 - p: [12, 13]
   k: LANG2
+  l: [default]
 - p: [16, 17]
   k: LANG1
+  l: [default]
 - p: [0, 1]
   k: ESC
+  l: [default]
 - p: [10, 11]
   k: TAB
+  l: [default]
 - p: [20, 21]
   k: LEFT SHIFT
+  l: [default]
