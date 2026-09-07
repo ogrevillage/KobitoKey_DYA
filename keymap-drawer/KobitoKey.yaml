@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: L4 BT}
+  - {t: P, h: L4}
   - A
   - S
   - D
@@ -34,10 +34,10 @@ layers:
   - {t: ESCAPE, h: Ctrl}
   - LWIN
   - Alt
-  - {t: DEL, h: L2 FUNCTION}
+  - {t: DEL, h: L2}
   - SPACE
   - ENTER
-  - {t: BACKSPACE, h: L1 NUMBER}
+  - {t: BACKSPACE, h: L1}
   - Shift
   - \
   - {t: /, h: Alt}

@@ -177,9 +177,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(700, 49)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">P</text>
-<a href="#L4-BT">
-<text x="0" y="24" class="key hold layer-activator">L4 BT</text>
-</a></g>
+<text x="0" y="24" class="key hold">L4</text>
+</g>
 <g transform="translate(28, 105)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">A</text>
@@ -276,9 +275,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(238, 217)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">DEL</text>
-<a href="#L2-FUNCTION">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">L2 FUNCTION</tspan></text>
-</a></g>
+<text x="0" y="24" class="key hold">L2</text>
+</g>
 <g transform="translate(294, 224)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
@@ -290,9 +288,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(490, 217)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
-<a href="#L1-NUMBER">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 78%">L1 NUMBER</tspan></text>
-</a></g>
+<text x="0" y="24" class="key hold">L1</text>
+</g>
 <g transform="translate(546, 210)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Shift</text>
