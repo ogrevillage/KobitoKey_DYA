@@ -31,13 +31,13 @@ layers:
   - ','
   - .
   - ':'
-  - {t: ESCAPE, h: Ctrl}
-  - LWIN
+  - {t: Esc, h: Ctrl}
+  - Win
   - Alt
-  - {t: DEL, h: L2}
-  - SPACE
-  - ENTER
-  - {t: BACKSPACE, h: L1}
+  - {t: Del, h: L2}
+  - Space
+  - Enter
+  - {t: BS, h: L1}
   - Shift
   - \
   - {t: /, h: Alt}
@@ -213,10 +213,10 @@ combos:
   k: かな
   l: [L0 BASE]
 - p: [0, 1]
-  k: ESC
+  k: Esc
   l: [L0 BASE]
 - p: [10, 11]
-  k: TAB
+  k: Tab
   l: [L0 BASE]
 - p: [20, 21]
   k: Shift
