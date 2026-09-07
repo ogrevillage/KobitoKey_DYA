@@ -25,6 +25,13 @@ parse_config:
     # Return to base layer
     '&to 0': "L0"
 
+  layer_legend_map:
+    "L0 BASE": "L0"
+    "L1 NUMBER": "L1"
+    "L2 FUNCTION": "L2"
+    "L3 MOUSE": "L3"
+    "L4 BT": "L4"
+  
   zmk_keycode_map:
     # Existing
     EXCLAMATION: "!"
