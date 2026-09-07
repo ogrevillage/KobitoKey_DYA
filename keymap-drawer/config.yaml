@@ -1,17 +1,81 @@
 parse_config:
   raw_binding_map:
+    # Existing
     '&sys_reset': Reset
     '&bootloader': Boot
     '&caps_word': Caps Word
 
+    # JIS Shift combinations
+    '&kp LS(MINUS)': "="
+
+    '&kp LS(NUMBER_8)': "("
+    '&kp LS(N8)': "("
+
+    '&kp LS(NUMBER_9)': ")"
+    '&kp LS(N9)': ")"
+
+    # JIS additional symbols
+    '&kp LS(INT1)': "_"
+    '&kp LS(INT3)': "|"
+
   zmk_keycode_map:
-    # Symbols
+    # Existing
     EXCLAMATION: "!"
     EXCL: "!"
-    C_PLAY_PAUSE: "▷||"
+    C_PLAY_PAUSE: "▶|⏸"
 
+    # JIS symbols
+    SEMI: ";"
+    SEMICOLON: ";"
+
+    COMMA: ","
+
+    DOT: "."
+    PERIOD: "."
+
+    APOS: ":"
+    APOSTROPHE: ":"
+
+    INT1: "\\"
+    SLASH: "/"
+
+    LEFT_BRACKET: "@"
+    LEFTBRACKET: "@"
+
+    INT3: "￥"
+
+    RIGHT_BRACKET: "["
+    RIGHTBRACKET: "["
+
+    NUHS: "]"
+
+    # Keypad
+    KP_MINUS: "-"
+    KPMINUS: "-"
+
+    KP_PLUS: "+"
+    KPPLUS: "+"
+
+    KP_MULTIPLY: "*"
+    KPMULTIPLY: "*"
+
+    KP_SLASH: "/"
+    KPSLASH: "/"
+
+    # Arrows
+    UP_ARROW: "↑"
+    UPARROW: "↑"
+
+    DOWN_ARROW: "↓"
+    DOWNARROW: "↓"
+
+    LEFT_ARROW: "←"
+    LEFTARROW: "←"
+
+    RIGHT_ARROW: "→"
+    RIGHTARROW: "→"
 
 draw_config:
   dark_mode: auto
   glyph_tap_size: 18
-  footer_text: 'KobitoKey KEYMAPS | Created with keymap-drawer' 
+  footer_text: 'KobitoKey KEYMAPS | Created with keymap-drawer'
