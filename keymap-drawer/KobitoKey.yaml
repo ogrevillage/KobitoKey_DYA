@@ -31,16 +31,16 @@ layers:
   - ','
   - .
   - ':'
-  - {t: ESCAPE, h: LCTRL}
+  - {t: ESCAPE, h: Ctrl}
   - LWIN
-  - LALT
+  - Alt
   - {t: DEL, h: FUNCTION}
   - SPACE
   - ENTER
   - {t: BACKSPACE, h: NUMBER}
-  - RIGHT SHIFT
+  - Shift
   - \
-  - {t: /, h: LALT}
+  - {t: /, h: Alt}
   NUMBER:
   - '@'
   - '7'
@@ -85,7 +85,7 @@ layers:
   FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Z
+  - Win+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
@@ -94,9 +94,9 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
-  - Gui+Sft+←
-  - Gui+↑
-  - Sft+Gui+→
+  - Win+Shift+←
+  - Win+↑
+  - Shift+Win+→
   - {t: ▽, type: trans}
   - F6
   - F7
@@ -104,9 +104,9 @@ layers:
   - F9
   - F10
   - {t: ▽, type: trans}
-  - Gui+←
-  - Gui+↓
-  - Gui+→
+  - Win+←
+  - Win+↓
+  - Win+→
   - {t: ▽, type: trans}
   - F11
   - F12
@@ -130,9 +130,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - LClick
+  - MClick
+  - RClick
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -140,9 +140,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - LClick
+  - MClick
+  - RClick
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -158,11 +158,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - BASE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - BASE
   - {t: ▽, type: trans}
   BT:
   - {t: BT, h: '0'}
@@ -207,10 +207,10 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [12, 13]
-  k: LANG2
+  k: 英数
   l: [default]
 - p: [16, 17]
-  k: LANG1
+  k: かな
   l: [default]
 - p: [0, 1]
   k: ESC
@@ -219,5 +219,5 @@ combos:
   k: TAB
   l: [default]
 - p: [20, 21]
-  k: LEFT SHIFT
+  k: Shift
   l: [default]
