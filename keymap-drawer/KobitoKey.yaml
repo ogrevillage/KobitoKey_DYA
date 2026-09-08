@@ -34,7 +34,7 @@ layers:
   - {t: Esc, h: Ctrl}
   - Win
   - Alt
-  - {t: Del, h: L2}
+  - {t: Del, h: L5 NUMBER2}
   - Space
   - Enter
   - {t: BS, h: L1}
@@ -116,7 +116,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -239,7 +239,7 @@ layers:
   - Shift
   - {t: ▽, type: trans}
   - Shift
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
