@@ -248,10 +248,10 @@ layers:
   - +
 combos:
 - p: [12, 13]
-  k: 英数
+  k: '&eisu_base'
   l: [L0 BASE, L3 MOUSE]
 - p: [16, 17]
-  k: かな
+  k: '&kana_base'
   l: [L0 BASE, L3 MOUSE]
 - p: [0, 1]
   k: Esc
@@ -263,8 +263,8 @@ combos:
   k: Shift
   l: [L0 BASE]
 - p: [8, 9]
-  k: '&paren_pair'
+  k: (|)
   l: [L0 BASE]
 - p: [18, 19]
-  k: '&bracket_pair'
+  k: '[|]'
   l: [L0 BASE]
