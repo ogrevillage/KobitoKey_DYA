@@ -5,6 +5,10 @@ parse_config:
     '&bootloader': Boot
     '&caps_word': Caps Word
 
+    # Custom macros
+    '&paren_pair': '(|)'
+    '&bracket_pair': '[|]'
+    
     # JIS Shift combinations
     '&kp LS(MINUS)': "="
 
