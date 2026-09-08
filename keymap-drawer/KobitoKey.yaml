@@ -264,7 +264,7 @@ combos:
   l: [L0 BASE]
 - p: [8, 9]
   k: (|)
-  l: [L0 BASE]
+  l: [L0 BASE, L1 NUMBER, NUM2]
 - p: [18, 19]
   k: '[|]'
-  l: [L0 BASE]
+  l: [L0 BASE, L1 NUMBER, NUM2]
