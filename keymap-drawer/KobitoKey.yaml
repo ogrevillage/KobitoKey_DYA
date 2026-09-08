@@ -205,7 +205,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUM2:
+  L5 NUMBER2:
   - '1'
   - '2'
   - '3'
@@ -249,10 +249,10 @@ layers:
 combos:
 - p: [12, 13]
   k: 英数
-  l: [L0 BASE, L1 NUMBER, L3 MOUSE, NUM2]
+  l: [L0 BASE, L1 NUMBER, L3 MOUSE, L5 NUMBER2]
 - p: [16, 17]
   k: かな
-  l: [L0 BASE, L1 NUMBER, L3 MOUSE, NUM2]
+  l: [L0 BASE, L1 NUMBER, L3 MOUSE, L5 NUMBER2]
 - p: [0, 1]
   k: Esc
   l: [L0 BASE]
@@ -264,7 +264,7 @@ combos:
   l: [L0 BASE]
 - p: [8, 9]
   k: (|)
-  l: [L0 BASE, L1 NUMBER, NUM2]
+  l: [L0 BASE, L1 NUMBER, L5 NUMBER2]
 - p: [18, 19]
   k: '[|]'
-  l: [L0 BASE, L1 NUMBER, NUM2]
+  l: [L0 BASE, L1 NUMBER, L5 NUMBER2]
