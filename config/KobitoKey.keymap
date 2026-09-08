@@ -26,6 +26,34 @@
 };
 
 / {
+    macros {
+        paren_pair: paren_pair {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <20>;
+            tap-ms = <20>;
+            bindings = <
+                &kp LS(NUMBER_8)
+                &kp LS(NUMBER_9)
+                &kp LEFT_ARROW
+            >;
+        };
+
+        bracket_pair: bracket_pair {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <20>;
+            tap-ms = <20>;
+            bindings = <
+                &kp RIGHT_BRACKET
+                &kp NUHS
+                &kp LEFT_ARROW
+            >;
+        };
+    };
+};
+
+/ {
     combos {
         compatible = "zmk,combos";
 
@@ -33,14 +61,14 @@
             timeout-ms = <50>;
             key-positions = <12 13>;
             bindings = <&kp LANG2>;
-            layers = <0>;
+            layers = <0 3>;
         };
 
         combo_kana {
             timeout-ms = <50>;
             key-positions = <16 17>;
             bindings = <&kp LANG1>;
-            layers = <0>;
+            layers = <0 3>;
         };
 
         combo_esc {
@@ -60,6 +88,18 @@
         combo_shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <20 21>;
+            layers = <0>;
+        };
+        combo_paren_pair {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&paren_pair>;
+            layers = <0>;
+        };
+        combo_bracket_pair {
+            timeout-ms = <50>;
+            key-positions = <18 19>;
+            bindings = <&bracket_pair>;
             layers = <0>;
         };
     };
@@ -97,15 +137,15 @@
             >;
         };
 
-        MOUSE {
-            label = "L3 MOUSE";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                 &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+       MOUSE {
+           label = "L3 MOUSE";
+           bindings = <
 &trans  &trans  &trans  &trans  &trans                 &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans                 &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans                 &trans  &trans    &trans    &trans    &trans
 &trans  &trans          &trans  &trans  &to 0  &trans  &trans  &trans              &to 0     &trans
-            >;
-        };
+           >;
+       };
 
         BT {
             label = "L4 BT";
