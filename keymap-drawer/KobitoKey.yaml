@@ -249,10 +249,10 @@ layers:
 combos:
 - p: [12, 13]
   k: 英数
-  l: [L0 BASE, L3 MOUSE]
+  l: [L0 BASE, L1 NUMBER, L3 MOUSE, NUM2]
 - p: [16, 17]
   k: かな
-  l: [L0 BASE, L3 MOUSE]
+  l: [L0 BASE, L1 NUMBER, L3 MOUSE, NUM2]
 - p: [0, 1]
   k: Esc
   l: [L0 BASE]
