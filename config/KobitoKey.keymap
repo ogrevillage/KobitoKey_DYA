@@ -122,7 +122,7 @@
 &kp N1            &kp N2            &kp N3          &kp N4           &kp N5                     &kp N6         &kp N7  &kp N8  &kp N9  &kp KP_SLASH
 &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp UP_ARROW    &kp INT3         &kp COMMA                  &kp LS(MINUS)  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY
 &kp LEFT_BRACKET  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp APOS                   &kp PERIOD     &kp N1  &kp N2  &kp N3  &kp KP_MINUS
-&trans            &trans                            &trans           &trans     &trans  &trans  &trans         &trans          &kp N0  &kp KP_PLUS
+&kp LEFT_SHIFT    &trans                            &kp LEFT_SHIFT   &trans     &trans  &trans  &trans         &trans          &kp N0  &kp KP_PLUS
             >;
         };
     };
