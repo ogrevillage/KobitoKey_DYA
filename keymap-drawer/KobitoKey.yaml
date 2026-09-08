@@ -236,9 +236,9 @@ layers:
   - '2'
   - '3'
   - '-'
+  - Shift
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Shift
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
