@@ -37,7 +37,8 @@ parse_config:
     "L2 FUNCTION": "L2"
     "L3 MOUSE": "L3"
     "L4 BT": "L4"
-  
+    "L5 NUMBER2": "L5"
+    
   zmk_keycode_map:
     # Existing
     EXCLAMATION: "!"
