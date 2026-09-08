@@ -37,7 +37,7 @@ layers:
   - {t: Del, h: L2}
   - Space
   - Enter
-  - {t: BS, h: L5 NUMBER2}
+  - {t: BS, h: L5}
   - Shift
   - \
   - {t: /, h: Alt}
