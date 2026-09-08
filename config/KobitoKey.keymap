@@ -42,6 +42,18 @@
             tap-ms = <20>;
             bindings = <&kp RIGHT_BRACKET &kp NUHS &kp LEFT_ARROW>;
         };
+
+        eisu_base: eisu_base {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2>, <&to 0>;
+        };
+
+        kana_base: kana_base {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG1>, <&to 0>;
+        };
     };
 };
 
