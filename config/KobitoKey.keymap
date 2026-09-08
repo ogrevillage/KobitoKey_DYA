@@ -112,13 +112,13 @@ kana_base: kana_base {
             timeout-ms = <50>;
             key-positions = <8 9>;
             bindings = <&paren_pair>;
-            layers = <0>;
+            layers = <0 1 5>;
         };
         combo_bracket_pair {
             timeout-ms = <50>;
             key-positions = <18 19>;
             bindings = <&bracket_pair>;
-            layers = <0>;
+            layers = <0 1 5>;
         };
     };
 
