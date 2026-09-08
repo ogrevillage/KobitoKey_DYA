@@ -49,8 +49,24 @@
                 &kp NUHS
                 &kp LEFT_ARROW
             >;
-        };
-    };
+       eisu_base: eisu_base {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           bindings = <
+               &kp LANG2
+               &to 0
+           >;
+       };
+
+      kana_base: kana_base {
+          compatible = "zmk,behavior-macro";
+          #binding-cells = <0>;
+          bindings = <
+              &kp LANG1
+              &to 0
+          >;
+      };
+};
 };
 
 / {
@@ -60,14 +76,14 @@
         combo_eisu {
             timeout-ms = <50>;
             key-positions = <12 13>;
-            bindings = <&kp LANG2>;
+            bindings = <&eisu_base>;
             layers = <0 3>;
         };
 
         combo_kana {
             timeout-ms = <50>;
             key-positions = <16 17>;
-            bindings = <&kp LANG1>;
+            bindings = &kana_base>;
             layers = <0 3>;
         };
 
