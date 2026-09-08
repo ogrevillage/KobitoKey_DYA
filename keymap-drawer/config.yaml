@@ -8,6 +8,8 @@ parse_config:
     # Custom macros
     '&paren_pair': '(|)'
     '&bracket_pair': '[|]'
+    '&eisu_base': '英数'
+    '&kana_base': 'かな'
     
     # JIS Shift combinations
     '&kp LS(MINUS)': "="
