@@ -32,11 +32,7 @@
             #binding-cells = <0>;
             wait-ms = <20>;
             tap-ms = <20>;
-            bindings = <
-                &kp LS(NUMBER_8)
-                &kp LS(NUMBER_9)
-                &kp LEFT_ARROW
-            >;
+            bindings = <&kp LS(NUMBER_8) &kp LS(NUMBER_9) &kp LEFT_ARROW>;
         };
 
         bracket_pair: bracket_pair {
@@ -44,31 +40,9 @@
             #binding-cells = <0>;
             wait-ms = <20>;
             tap-ms = <20>;
-            bindings = <
-                &kp RIGHT_BRACKET
-                &kp NUHS
-                &kp LEFT_ARROW
-            >;
-};
-
-eisu_base: eisu_base {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings
-        = <&kp LANG2>
-        , <&to 0>
-        ;
-};
-
-kana_base: kana_base {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings
-        = <&kp LANG1>
-        , <&to 0>
-        ;
-};
-};
+            bindings = <&kp RIGHT_BRACKET &kp NUHS &kp LEFT_ARROW>;
+        };
+    };
 };
 
 / {
@@ -108,12 +82,14 @@ kana_base: kana_base {
             key-positions = <20 21>;
             layers = <0>;
         };
+
         combo_paren_pair {
             timeout-ms = <50>;
             key-positions = <8 9>;
             bindings = <&paren_pair>;
             layers = <0 1 5>;
         };
+
         combo_bracket_pair {
             timeout-ms = <50>;
             key-positions = <18 19>;
@@ -138,10 +114,10 @@ kana_base: kana_base {
         NUM {
             label = "L1 NUMBER";
             bindings = <
-&kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                         &kp KP_MINUS     &trans          &kp UP_ARROW      &trans            &kp LEFT_BRACKET
-&kp INT3          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(MINUS)                  &kp KP_PLUS      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp RIGHT_BRACKET
-&kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                     &kp KP_MULTIPLY  &kp KP_SLASH    &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp NUHS
-&trans            &trans                      &trans        &trans         &trans  &trans  &trans           &trans                            &trans            &trans
+&kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                         &kp KP_MINUS     &trans          &kp UP_ARROW    &trans           &kp LEFT_BRACKET
+&kp INT3          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(MINUS)                  &kp KP_PLUS      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                     &kp KP_MULTIPLY  &kp KP_SLASH    &trans          &trans           &trans
+&trans            &trans                      &trans        &trans         &trans  &trans  &trans           &trans                          &trans           &trans
             >;
         };
 
@@ -155,15 +131,15 @@ kana_base: kana_base {
             >;
         };
 
-       MOUSE {
-           label = "L3 MOUSE";
-           bindings = <
+        MOUSE {
+            label = "L3 MOUSE";
+            bindings = <
 &trans  &trans  &trans  &trans  &trans                 &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans                 &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans                 &trans  &trans    &trans    &trans    &trans
 &trans  &trans          &trans  &trans  &to 0  &trans  &trans  &trans              &to 0     &trans
-           >;
-       };
+            >;
+        };
 
         BT {
             label = "L4 BT";
@@ -177,10 +153,10 @@ kana_base: kana_base {
 
         NUM2 {
             bindings = <
-&kp N1            &kp N2            &kp N3          &kp N4           &kp N5                     &kp N6         &kp N7  &kp N8  &kp N9  &kp KP_SLASH
-&kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp UP_ARROW    &kp INT3         &kp COMMA                  &kp LS(MINUS)  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY
-&kp LEFT_BRACKET  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp APOS                   &kp PERIOD     &kp N1  &kp N2  &kp N3  &kp KP_MINUS
-&kp LEFT_SHIFT    &trans                            &kp LEFT_SHIFT   &trans     &trans  &trans  &trans         &trans          &kp N0  &kp KP_PLUS
+&kp N1            &kp N2          &kp N3          &kp N4           &kp N5                     &kp N6         &kp N7  &kp N8  &kp N9  &kp KP_SLASH
+&trans            &trans          &kp UP_ARROW    &kp INT3         &kp COMMA                  &kp LS(MINUS)  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY
+&kp LEFT_BRACKET  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp APOS                   &kp PERIOD     &kp N1  &kp N2  &kp N3  &kp KP_MINUS
+&kp LEFT_SHIFT    &trans                          &kp LEFT_SHIFT   &trans     &trans  &trans  &trans         &trans          &kp N0  &kp KP_PLUS
             >;
         };
     };
