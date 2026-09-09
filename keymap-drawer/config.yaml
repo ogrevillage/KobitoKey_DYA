@@ -10,6 +10,7 @@ parse_config:
     '&bracket_pair': '[|]'
     '&eisu_base': '英数'
     '&kana_base': 'かな'
+    '&long_vowel': "ー"
     
     # JIS Shift combinations
     '&kp LS(MINUS)': "="
