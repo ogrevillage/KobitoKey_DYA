@@ -263,7 +263,7 @@ combos:
   k: Shift
   l: [L0 BASE]
 - p: [8, 9]
-  k: '&long_vowel'
+  k: ー
   l: [L0 BASE]
 - p: [18, 19]
   k: (|)
