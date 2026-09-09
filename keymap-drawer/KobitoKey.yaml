@@ -249,10 +249,10 @@ layers:
 combos:
 - p: [12, 13]
   k: 英数
-  l: [L0 BASE, L1 NUMBER, L3 MOUSE, L5 NUMBER2]
+  l: [L0 BASE, L1 NUMBER, L5 NUMBER2]
 - p: [16, 17]
   k: かな
-  l: [L0 BASE, L1 NUMBER, L3 MOUSE, L5 NUMBER2]
+  l: [L0 BASE, L1 NUMBER, L5 NUMBER2]
 - p: [0, 1]
   k: Esc
   l: [L0 BASE]
@@ -263,8 +263,11 @@ combos:
   k: Shift
   l: [L0 BASE]
 - p: [8, 9]
+  k: '&long_vowel'
+  l: [L0 BASE]
+- p: [18, 19]
   k: (|)
   l: [L0 BASE, L1 NUMBER, L5 NUMBER2]
-- p: [18, 19]
+- p: [28, 29]
   k: '[|]'
   l: [L0 BASE, L1 NUMBER, L5 NUMBER2]
