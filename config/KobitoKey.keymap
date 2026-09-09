@@ -52,13 +52,13 @@
         eisu_base: eisu_base {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANG2>, <&to 0>;
+            bindings = <&kp LANG2>;
         };
 
         kana_base: kana_base {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANG1>, <&to 0>;
+            bindings = <&kp LANG1>;
         };
     };
 };
