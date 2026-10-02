@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   L2 FUNCTION:
-  - {t: ▽, type: trans}
+  - Esc
   - {t: ▽, type: trans}
   - Win+Z
   - {t: ▽, type: trans}
@@ -93,7 +93,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
+  - Tab
   - Win+Shift+←
   - Win+↑
   - Shift+Win+→
@@ -103,7 +103,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: ▽, type: trans}
+  - Shift
   - Win+←
   - Win+↓
   - Win+→
@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctrl
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
