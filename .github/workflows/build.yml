@@ -6,6 +6,7 @@ on:
       - config/**
       - boards/**
       - build.yaml
+      - .github/workflows/build.yml
  
 jobs:
   build:
@@ -15,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    continue-on-error: true
+    continue-on-error: false
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,12 +31,6 @@ jobs:
           echo "branch=$BRANCH_NAME" >> $GITHUB_OUTPUT
           echo "Branch name is $BRANCH_NAME"
 
-      - name: Prepare firmware directory
-        run: |
-          mkdir -p firmware/${{ steps.branch-name.outputs.branch }}
-          rm -rf firmware/${{ steps.branch-name.outputs.branch }}/*
-          echo "Created directory firmware/${{ steps.branch-name.outputs.branch }}"
-
       - name: Get last commit message
         id: last_commit_message
         if: inputs.amend_commit == true && (inputs.destination == 'commit' || inputs.destination == 'both')
@@ -45,6 +40,12 @@ jobs:
       - name: Sync with remote branch
         run: |
           git pull --rebase origin ${{ steps.branch-name.outputs.branch }}
+
+      - name: Prepare firmware directory
+        run: |
+          mkdir -p firmware/${{ steps.branch-name.outputs.branch }}
+          rm -rf firmware/${{ steps.branch-name.outputs.branch }}/*
+          echo "Created directory firmware/${{ steps.branch-name.outputs.branch }}"
 
       - name: Download firmware artifacts
         uses: actions/download-artifact@v4
