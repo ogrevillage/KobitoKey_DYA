@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: KobitoKey}
 layers:
-  L0 BASE:
+  L0 BASE (Compact5 trial):
   - Q
   - W
   - E
@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - ;
-  - Z
+  - {t: Z, h: Shift}
   - X
   - C
   - V
@@ -30,17 +30,17 @@ layers:
   - M
   - ','
   - .
-  - ':'
-  - {t: Esc, h: Ctrl}
+  - {t: ':', h: Shift}
+  - Ctrl
   - Win
   - Alt
-  - {t: Del, h: L2}
+  - {t: Del, h: L5 NUMBER2 (Compact5 trial)}
   - Space
   - Enter
-  - {t: BS, h: L5}
+  - {t: BS, h: L2 FUNCTION (Compact5 trial)}
   - Shift
   - \
-  - {t: /, h: Alt}
+  - {t: /, h: Ctrl}
   L1 NUMBER:
   - '@'
   - '7'
@@ -82,44 +82,44 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  L2 FUNCTION:
-  - Esc
-  - {t: ▽, type: trans}
-  - Win+Z
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  L2 FUNCTION (Compact5 trial):
   - F1
   - F2
   - F3
   - F4
   - F5
-  - Tab
-  - Win+Shift+←
-  - Win+↑
-  - Shift+Win+→
-  - {t: ▽, type: trans}
   - F6
   - F7
   - F8
   - F9
   - F10
-  - Shift
-  - Win+←
-  - Win+↓
-  - Win+→
+  - Tab
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ←
+  - ↓
+  - ↑
+  - →
   - F11
-  - F12
+  - Shift
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctrl
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Esc, h: Ctrl}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -205,7 +205,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  L5 NUMBER2:
+  L5 NUMBER2 (Compact5 trial):
   - '1'
   - '2'
   - '3'
@@ -216,58 +216,58 @@ layers:
   - '8'
   - '9'
   - /
+  - Tab
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↑
-  - ￥
-  - ','
+  - {t: ▽, type: trans}
   - '='
+  - ':'
   - '4'
   - '5'
   - '6'
   - '*'
-  - '@'
-  - ←
-  - ↓
-  - →
-  - ':'
-  - .
+  - Shift
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ￥
+  - ','
   - '1'
   - '2'
   - '3'
   - '-'
-  - Shift
-  - {t: ▽, type: trans}
-  - Shift
-  - {t: ▽, type: trans}
+  - {t: Esc, h: Ctrl}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '0'
+  - .
   - +
 combos:
 - p: [12, 13]
   k: 英数
-  l: [L0 BASE, L1 NUMBER, L5 NUMBER2]
+  l: [L0 BASE (Compact5 trial), L1 NUMBER, L5 NUMBER2 (Compact5 trial)]
 - p: [16, 17]
   k: かな
-  l: [L0 BASE, L1 NUMBER, L5 NUMBER2]
+  l: [L0 BASE (Compact5 trial), L1 NUMBER, L5 NUMBER2 (Compact5 trial)]
 - p: [0, 1]
   k: Esc
-  l: [L0 BASE]
+  l: [L0 BASE (Compact5 trial)]
 - p: [10, 11]
   k: Tab
-  l: [L0 BASE]
-- p: [20, 21]
-  k: Shift
-  l: [L0 BASE]
+  l: [L0 BASE (Compact5 trial)]
 - p: [8, 9]
   k: ー
-  l: [L0 BASE]
+  l: [L0 BASE (Compact5 trial)]
+- p: [13, 16]
+  k: '@'
+  l: [L0 BASE (Compact5 trial)]
 - p: [18, 19]
   k: (|)
-  l: [L0 BASE, L1 NUMBER, L5 NUMBER2]
+  l: [L0 BASE (Compact5 trial), L1 NUMBER, L5 NUMBER2 (Compact5 trial)]
 - p: [28, 29]
   k: '[|]'
-  l: [L0 BASE, L1 NUMBER, L5 NUMBER2]
+  l: [L0 BASE (Compact5 trial), L1 NUMBER, L5 NUMBER2 (Compact5 trial)]
