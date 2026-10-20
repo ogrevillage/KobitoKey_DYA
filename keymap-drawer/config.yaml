@@ -5,6 +5,9 @@ parse_config:
     '&bootloader': Boot
     '&caps_word': Caps Word
 
+    # L0: normal A; only Left Alt + A = Alt+Tab
+    '&alt_only_a': {t: A, h: 'Alt+Tab'}
+
     # Custom macros
     '&paren_pair': '(|)'
     '&bracket_pair': '[|]'
