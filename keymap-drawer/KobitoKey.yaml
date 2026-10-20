@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - {t: P, h: L4}
-  - A
+  - {t: A, h: Alt+Tab}
   - S
   - D
   - F
@@ -99,8 +99,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ←
-  - ↓
   - ↑
+  - ↓
   - →
   - F11
   - Shift
@@ -134,7 +134,7 @@ layers:
   - MClick
   - RClick
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,7 +175,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - A
   - {t: ▽, type: trans}
   - BT PRV
   - BT NXT
