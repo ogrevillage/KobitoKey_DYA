@@ -109,11 +109,15 @@
         <&zip_temp_layer 3 5000>,
         <&mouse_runtime_input_processor &scroll_runtime_input_processor_r>;
 };
+// LisM L3 bindings moved from U/I/O clicks to J/K/L clicks.
+// Keep these physical positions from immediately cancelling AUTO MOUSE.
+// No change to KobitoKey's existing 5,000 ms timeout or 350 ms prior-idle setting.
 &zip_temp_layer {
     excluded-positions = <
-        6
-        7
-        8
+        7          // I: wheel up
+        16 17 18   // J / K / L: left / middle / right click
+        27         // comma: wheel down
+        30 39      // thumb Ctrl modifiers for Ctrl+wheel in Excel
     >;
 };
 
