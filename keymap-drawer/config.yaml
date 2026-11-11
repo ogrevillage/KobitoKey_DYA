@@ -11,6 +11,16 @@ parse_config:
     '&eisu_base': '英数'
     '&kana_base': 'かな'
     '&long_vowel': "ー"
+    '&ime_eisu_base': "英数→L0"
+    '&ime_kana_base': "かな→L0"
+    '&alt_only_a':
+      tap: A
+      hold: "Alt→Tab"
+    '&msc MOVE_Y(10)': "Wheel↑"
+    '&msc MOVE_Y(-10)': "Wheel↓"
+    '&mt RGUI INT1':
+      tap: "_"
+      hold: "Win"
     
     # JIS Shift combinations
     '&kp LS(MINUS)': "="
@@ -33,12 +43,12 @@ parse_config:
     '&to 0': "L0"
 
   layer_legend_map:
-    "L0 BASE": "L0"
-    "L1 NUMBER": "L1"
-    "L2 FUNCTION": "L2"
-    "L3 MOUSE": "L3"
+    "L0 BASE / LisM": "L0"
+    "L1 NUMBER / LisM": "L1"
+    "L2 FUNCTION / LisM": "L2"
+    "L3 AUTO MOUSE / LisM": "L3"
     "L4 BT": "L4"
-    "L5 NUMBER2": "L5"
+    "L5 NUMBER2 (Compact5 trial)": "L5"
     
   zmk_keycode_map:
     # Existing
@@ -161,4 +171,4 @@ parse_config:
 draw_config:
   dark_mode: auto
   glyph_tap_size: 18
-  footer_text: 'KobitoKey KEYMAPS | Created with keymap-drawer'
+  footer_text: 'KobitoKey DYA | LisM L0–L3 + combos | original L4/L5 | AUTO MOUSE 5s'
