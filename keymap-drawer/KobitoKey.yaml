@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: KobitoKey}
 layers:
-  L0 BASE (Compact5 trial):
+  L0 BASE / LisM:
   - Q
   - W
   - E
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - {t: P, h: L4}
-  - A
+  - {t: A, h: Alt→Tab}
   - S
   - D
   - F
@@ -34,14 +34,14 @@ layers:
   - {t: Esc, h: Ctrl}
   - Win
   - Alt
-  - {t: Del, h: L5 NUMBER2 (Compact5 trial)}
+  - {t: Del, h: L5}
   - Space
   - Enter
-  - {t: BS, h: L2 FUNCTION (Compact5 trial)}
+  - {t: BS, h: L2}
   - Shift
-  - \
+  - {t: _, h: Win}
   - {t: /, h: Ctrl}
-  L1 NUMBER:
+  L1 NUMBER / LisM:
   - '@'
   - '7'
   - '8'
@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  L2 FUNCTION (Compact5 trial):
+  L2 FUNCTION / LisM:
   - F1
   - F2
   - F3
@@ -94,23 +94,23 @@ layers:
   - F9
   - F10
   - Tab
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Win+Shift+←
+  - Win+↑
+  - Win+Shift+→
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ←
-  - ↓
   - ↑
   - →
   - F11
   - Shift
   - {t: ▽, type: trans}
+  - Win+↓
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ↓
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,8 +123,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  L3 MOUSE:
+  L3 AUTO MOUSE / LisM:
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Wheel↑
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -141,17 +151,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Wheel↓
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -247,27 +247,33 @@ layers:
   - .
   - +
 combos:
-- p: [12, 13]
+- p: [11, 13]
   k: 英数
-  l: [L0 BASE (Compact5 trial), L1 NUMBER, L5 NUMBER2 (Compact5 trial)]
-- p: [16, 17]
+  l: [L0 BASE / LisM, L1 NUMBER / LisM, L5 NUMBER2 (Compact5 trial)]
+- p: [16, 18]
   k: かな
-  l: [L0 BASE (Compact5 trial), L1 NUMBER, L5 NUMBER2 (Compact5 trial)]
+  l: [L0 BASE / LisM, L1 NUMBER / LisM, L5 NUMBER2 (Compact5 trial)]
+- p: [11, 13]
+  k: 英数→L0
+  l: [L3 AUTO MOUSE / LisM]
+- p: [16, 18]
+  k: かな→L0
+  l: [L3 AUTO MOUSE / LisM]
 - p: [0, 1]
   k: Esc
-  l: [L0 BASE (Compact5 trial)]
+  l: [L0 BASE / LisM]
 - p: [10, 11]
   k: Tab
-  l: [L0 BASE (Compact5 trial)]
+  l: [L0 BASE / LisM]
 - p: [8, 9]
-  k: ー
-  l: [L0 BASE (Compact5 trial)]
+  k: MINUS
+  l: [L0 BASE / LisM, L1 NUMBER / LisM, L5 NUMBER2 (Compact5 trial)]
 - p: [13, 16]
   k: '@'
-  l: [L0 BASE (Compact5 trial)]
+  l: [L0 BASE / LisM]
 - p: [18, 19]
   k: (|)
-  l: [L0 BASE (Compact5 trial), L1 NUMBER, L5 NUMBER2 (Compact5 trial)]
+  l: [L0 BASE / LisM, L1 NUMBER / LisM, L5 NUMBER2 (Compact5 trial)]
 - p: [28, 29]
   k: '[|]'
-  l: [L0 BASE (Compact5 trial), L1 NUMBER, L5 NUMBER2 (Compact5 trial)]
+  l: [L0 BASE / LisM, L1 NUMBER / LisM, L5 NUMBER2 (Compact5 trial)]
