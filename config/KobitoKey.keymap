@@ -152,9 +152,9 @@
             label = "L3 AUTO MOUSE / LisM";
             // Keep KobitoKey's existing auto-layer activation/deactivation timing.
             bindings = <
-                &trans           &trans                &trans              &trans               &trans              &trans              &trans         &msc MOVE_Y(10) &trans                &trans
+                &trans           &trans                &trans              &trans               &trans              &trans              &trans         &trans &trans                &trans
                 &kp A            &trans                &trans              &trans               &trans              &trans              &mkp MB1      &mkp MB3        &mkp MB2              &trans
-                &trans           &trans                &trans              &trans               &trans              &trans              &trans         &msc MOVE_Y(-10) &trans               &trans
+                &trans           &trans                &trans              &trans               &trans              &trans              &trans         &trans &trans               &trans
                 &trans           &trans                &trans              &trans               &to 0               &trans              &trans         &trans          &to 0                 &trans
             >;
         };
